@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100&display=swap');
+
+* {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.timerDisplay {
+    background-color: rgb(197, 247, 247);
+    margin: 100px auto 50px auto;
+    width: 500px;
+    padding: 5px 10px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.timerButtons {
+
+    margin: 10px auto;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  
+}
+
+.timerButton {
+    background-color: #444652;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    0
+}
+
+.active {
+    box-shadow: none;
+    background-color: #abb0c7;
+    
+}
